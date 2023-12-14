@@ -1,0 +1,298 @@
+body {
+  
+  background-color: #008B8B;
+  
+}
+
+#bronze_selection {
+  
+  position: fixed;
+  border-radius: 10px;
+  background-color: Gainsboro;
+  border: 3px solid black;
+  bottom: 0;
+  right: 63.8%;
+  
+}
+
+#silver_selection {
+  
+  position: fixed;
+  border-radius: 10px;
+  background-color: Gainsboro;
+  border: 3px solid black;
+  bottom: 0;
+  right: 55%;
+  
+}
+
+#gold_selection {
+  
+  position: fixed;
+  border-radius: 10px;
+  background-color: Gainsboro;
+  border: 3px solid black;
+  bottom: 0;
+  right: 42.7%;
+  
+}
+
+#metal_selection {
+  
+  position: fixed;
+  border-radius: 10px;
+  background-color: Gainsboro;
+  border: 3px solid black;
+  bottom: 0;
+  right: 31.6%;
+  
+}
+
+#bronze_bubble {
+  
+  position: fixed;
+  color: white;
+  font-family: "Lucida Console", "Courier New", monospace;
+  background-color: Brown;
+  border-radius: 25px;
+  padding-top:10px;
+  padding-right:66px;
+  padding-left:66px;
+  padding-bottom:10px;
+
+  bottom: 34%;
+  right: 63.9%;
+  
+}
+
+#silver_bubble {
+  
+  position: fixed;
+  color: white;
+  font-family: "Lucida Console", "Courier New", monospace;
+  background-color: DarkGrey;
+  border-radius: 25px;
+  padding-top:10px;
+  padding-right:66px;
+  padding-left:66px;
+  padding-bottom:10px;
+  bottom: 34%;;
+  right: 55%;
+  
+}
+
+#gold_bubble {
+  
+  position: fixed;
+  color: white;
+  font-family: "Lucida Console", "Courier New", monospace;
+  background-color: DarkKhaki;
+  border-radius: 25px;
+  padding-top:10px;
+  padding-right:120px;
+  padding-left:120px;
+  padding-bottom:10px;
+  bottom: 34%;
+  right: 42.7%;
+}
+
+#metal_bubble {
+  
+  position: fixed;
+  color: white;
+  font-family: "Lucida Console", "Courier New", monospace;
+  background-color: DarkSlateBlue;
+  border-radius: 25px;
+  padding-top:10px;
+  padding-right:100px;
+  padding-left:100px;
+  padding-bottom:10px;
+  bottom: 34%;
+  right: 31.59%
+  
+}
+
+#level_selection {
+  
+  position: fixed;
+  border-radius: 10px;
+  background-color: Gainsboro;
+  border: 3px solid black;
+  bottom: 0;
+  right: 78%;
+  padding-left: 25px;
+  padding-right: 25px;
+  
+}
+
+#promotion_selection {
+  
+  position: fixed;
+  border-radius: 10px;
+  background-color: Gainsboro;
+  border: 3px solid black;
+  bottom: 0;
+  right: 73.8%;
+  padding-left: 25px;
+  padding-right: 25px;
+  
+}
+
+#promotion_bubble {
+  
+  position: fixed;
+  color: black;
+  font-family: "Lucida Console", "Courier New", monospace;
+  background-color: beige;
+  border-radius: 25px;
+  padding-top:10px;
+  padding-right:10px;
+  padding-left:10px;
+  padding-bottom:10px;
+
+  bottom: 34%;
+  right: 73.7%;
+  
+}
+
+#level_bubble {
+  
+  position: fixed;
+  color: black;
+  font-family: "Lucida Console", "Courier New", monospace;
+  background-color: beige;
+  border-radius: 25px;
+  padding-top:10px;
+  padding-right:10px;
+  padding-left:10px;
+  padding-bottom:10px;
+
+  bottom: 34%;
+  right: 77.95%;
+  
+}
+
+#support_bubble {
+  
+  position: fixed;
+  color: black;
+  font-family: "Lucida Console", "Courier New", monospace;
+  background-color: beige;
+  border-radius: 25px;
+  padding-top:10px;
+  padding-right:10px;
+  padding-left:10px;
+  padding-bottom:10px;
+
+  bottom: 25%;
+  right: 25%;
+  
+}
+
+#support_selection {
+  
+  position: fixed;
+  border-radius: 10px;
+  background-color: Gainsboro;
+  border: 3px solid black;
+  bottom: 15%;
+  right: 27%;
+  
+  
+}
+
+#outputbox {
+  
+  position: fixed;
+  width: 1000px;
+  height: 200px;
+  border-radius: 20px;
+  border: 4px solid black;
+  background-color: beige;
+  bottom: 50%;
+  right: 33%;
+  
+}
+
+#output_damage {
+  
+  position: fixed;
+  color: black;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: x-large;
+  bottom: 63%;
+  right: 62%;
+  
+}
+
+#output2 {
+  
+  position: fixed;
+  color: black;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: x-large;
+  bottom: 63%;
+  right: 57%;
+  z-index: 1;
+}
+
+#output_health {
+  
+  position: fixed;
+  color: black;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: x-large;
+  bottom: 63%;
+  right: 47%;
+  
+}
+
+#output1 {
+  
+  position: fixed;
+  color: black;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: x-large;
+  bottom: 63%;
+  right: 42%;
+  z-index: 1;
+}
+
+#output_character {
+  
+  position: absolute;
+  color: black;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: x-large;
+  bottom: 72%;
+  right: 48%;
+  z-index: 1;
+
+}
+
+#outputerror {
+  
+  
+  position: fixed;
+  color: red;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: x-small;
+  bottom: 53%;
+  right: 34%;
+  z-index: 1;
+
+  
+}
+
+#output_button {
+  
+  position: fixed;
+  bottom: 63%;
+  right: 25%;
+  color: white;
+  background-color: black;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 30px;
+  border-radius: 12px;
+  
+}
